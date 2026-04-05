@@ -125,4 +125,9 @@ class BlogApiHomeworkTest extends BaseAuthorizedApiTest {
                 .replace("-", "")
                 .substring(0, length);
     }
+
+    class MyClass {
+        private MyClass() {
+        }
+    }
 }
